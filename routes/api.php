@@ -9,6 +9,7 @@ use App\Http\Controllers\MejaController;
 use App\Http\Controllers\PelangganController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\PemesananController;
 
 
 route::apiResource('/category', CategoryController::class);
@@ -18,3 +19,4 @@ route::apiResource('/meja', MejaController::class);
 route::apiResource('/pelanggan', PelangganController::class);
 route::apiResource('/menu', MenuController::class);
 route::apiResource('/karyawan', KaryawanController::class);
+route::apiResource('/pemesanan', PemesananController::class);
